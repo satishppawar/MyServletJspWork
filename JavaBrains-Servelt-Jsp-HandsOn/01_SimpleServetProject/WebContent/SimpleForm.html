@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>simple form</title>
+</head>
+
+<body>
+	<!-- STEP 1 Create a simple form For GET
+	<form action="xmlServletpath">
+		<input name="userName" /> 
+		<input type="submit" />
+	</form>
+	-->
+	<!-- STEP 1 Create a simple form For POST-->
+	<form method="post" action="xmlServletpath">
+		User Name :<input name="userName" /> 
+		
+		<!-- STEP 2 -->
+		Full Name :<input name="fullName"/>
+		
+		<!-- STEP 3 -->
+		Profession:
+		<input type="radio" name="prof" value="Developer">Developer</input>
+		<input type="radio" name="prof" value="Architect">Architect</input>
+		
+		<!-- STEP 4 : For single value
+		<select name="location">
+			<option value="Pune">Pune</option>
+			<option value="Bangalore">Bangalore</option>
+			<option value="Hydrabad">Hydrabad</option>
+			<option value="Mumbai">Mumbai</option>
+			<option value="Nagpur">Nagpur</option>
+		</select>-->
+		
+		<!-- STEP 5 : For multiple value selection-->
+		<select name="locations" multiple="multiple" size="3">
+			<option value="Pune">Pune</option>
+			<option value="Bangalore">Bangalore</option>
+			<option value="Hydrabad">Hydrabad</option>
+			<option value="Mumbai">Mumbai</option>
+			<option value="Nagpur">Nagpur</option>
+		</select>
+		<input type="submit" />
+	</form>
+</body>
+
+</html>
