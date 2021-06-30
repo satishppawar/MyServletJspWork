@@ -90,5 +90,8 @@
 ```
 
 ---
-## Directive
+
+## Directive Element <%@ %>
+
+- Please refer code `NewFile.jsp`
 
