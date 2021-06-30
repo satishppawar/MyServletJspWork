@@ -19,8 +19,9 @@
 		<url-pattern>/Demo</url-pattern>
 	</servlet-mapping>
 	
-	
-  
+<!--===================================================-->
+  <!--JSP with Deployment Descriptor Configuration-->
+  <!--===================================================-->
   <servlet>
   <display-name>Hello JSP</display-name>
 		<servlet-name>Hello JSP</servlet-name>
