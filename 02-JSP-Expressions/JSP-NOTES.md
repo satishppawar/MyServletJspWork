@@ -57,3 +57,38 @@
 	<%=message()%>
 	
 ```
+* Whenever we need to comment in  any JSP code only use *JSP comment* as `<%-- --%>`
+
+
+```
+<!-- BELOW HTML COMMENTs won't work and it will redirect to Google -->
+	 <%-- response.sendRedirect("http://google.com"); --%>
+
+```
+
+* Java Comments are used for scriplet only
+
+```
+<!-- Java Comments -->
+	<%
+	/*
+	int birthYear = 2004;
+	out.print("birthYear is " + birthYear);
+	out.print("</br>");
+	if (birthYear > 2000) {
+		out.print(" Person is millennium as birthYear is > 2000");
+	}*/
+	%>
+```
+
+* HTML comment `<!-- -->` won't work for scriplet expression
+
+```
+<!-- BELOW HTML COMMENTs won't work and it will redirect to Google -->
+	<!-- <% response.sendRedirect("http://google.com"); %>-->
+
+```
+
+---
+## Directive
+

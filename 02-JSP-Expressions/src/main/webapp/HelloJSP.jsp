@@ -39,5 +39,22 @@
 
 	<!-- Calling Method using Expression element-->
 	<%=message()%>
+
+	<!-- Java Comments -->
+	<%
+	/*
+	int birthYear = 2004;
+	out.print("birthYear is " + birthYear);
+	out.print("</br>");
+	if (birthYear > 2000) {
+		out.print(" Person is millennium as birthYear is > 2000");
+	}*/
+	%>
+	</br>
+	<!-- BELOW JSP COMMENTs  and it will not redirect to studyeasy.org" -->
+	<%-- response.sendRedirect("http://google.com"); --%>
+	
+	<!-- BELOW HTML COMMENTs won't work and it will redirect to studyeasy.org" -->
+	<!--<%response.sendRedirect("http://studyeasy.org"); %>-->
 </body>
 </html>
